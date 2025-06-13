@@ -1,30 +1,30 @@
-# Pneumonia Detection using Chest X-ray Images
+# PneumoVision – Chest X‑Ray Pneumonia Detector
+**By Ujjwal Pal**
 
-Pneumonia is an inflammatory condition primarily affecting the lungs, characterized by symptoms such as cough, chest pain, fever, and difficulty breathing. The goal of this project is to develop an automated system for detecting and classifying pneumonia in medical images.
+This is a deep learning project that detects pneumonia from chest X‑ray images using ResNet and TensorFlow. The model is trained on a public Kaggle dataset with 5,000+ images.
 
-![Symptoms of Pneumonia](https://user-images.githubusercontent.com/65142149/215302250-841fde71-e182-4ffd-8036-625a3a717de7.png)
+## 🚀 Features
+- Deep Learning with Convolutional Neural Networks
+- Transfer Learning (ResNet)
+- Trained on Chest X-ray dataset
+- Output predictions with accuracy, loss graphs
+- Can be converted into a web app
 
-## Motivation
-The motivation behind this project is to leverage artificial intelligence to accurately detect and classify pneumonia in humans using chest X-ray images. By automating the diagnosis process, it can aid healthcare professionals in providing timely and accurate treatment.
+## 🧪 Tech Used
+- Python 🐍
+- TensorFlow/Keras
+- OpenCV
+- Pandas/Numpy
+- Matplotlib
 
-## Approach
-Transfer learning techniques were employed to build an artificial intelligence system capable of pneumonia detection. The system utilizes ResNet architectures and was implemented using Python and TensorFlow. Google Colab GPU and TensorBoard were utilized for efficient training and evaluation of the models.
+## 📸 Sample Output
+_(upload screenshot of training graph + prediction later)_
 
-## Key Technologies Used
-- Python
-- TensorFlow
-- Google Colab GPU
-- TensorBoard
-- ResNet architectures
+## 📂 Dataset Used
+[Kaggle Chest X-Ray Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
-## The Dataset
-The dataset used in this project is organized into three folders: train, test, and val. It consists of X-ray images (JPEG) categorized into two classes: Pneumonia and Normal. The dataset contains a total of 5,863 images.
-
-Chest X-ray images (anterior-posterior) were obtained from pediatric patients between the ages of one to five years old. These images were sourced from the Guangzhou Women and Children’s Medical Center in Guangzhou. Prior to training the AI system, all chest radiographs underwent quality control screening to remove low-quality or unreadable scans. Expert physicians then graded the images for diagnosis, with a third expert reviewing the evaluation set to account for any grading errors.
-
-The dataset used in this project is available on Kaggle: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
-
-## Achievement
-The developed system successfully distinguished between bacterial and viral pneumonia on chest X-ray images. It serves as a prototype for potential application in the field of biomedical imaging, providing a valuable tool for diagnosing pneumonia accurately and efficiently.
-
-**Credit:** Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), "Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification", Mendeley Data, V2, doi: 10.17632/rscbjbr9sj.2
+## 🧠 How to Run
+1. Clone the repo
+2. Install requirements: `pip install -r requirements.txt`
+3. Open `pneumonia_detection.ipynb`
+4. Train the model or test pre-trained weights
